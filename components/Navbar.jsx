@@ -129,7 +129,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/* For small screen */}
-                    <div id="mobile-menu" className={`${showMenu ? "flex" : "hidden"} absolute dark:bg-gray-900 z-10 inset-0 md:hidden bg-white flex-col h-screen w-full`}>
+                    <div id="mobile-menu" className={`${showMenu ? "flex" : "hidden"}  dark:bg-gray-900 z-10 inset-0 md:hidden bg-white flex-col h-screen w-full fixed top-0`}>
                         <div className="flex items-center justify-between border-b border-gray-200 dark:border-gray-700 pb-4 p-4">
                             <div className="flex items-center space-x-3">
                                 <div>
@@ -192,7 +192,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div className="h-full flex items-end">
-                            <ul className="flex flex-col space-y-8 bg-gray-50 w-full py-10 p-4 dark:bg-gray-800">
+                            <ul className="flex flex-col bg-gray-50 w-full py-10 p-4 dark:bg-gray-800">
                                 <li>
                                     <a href="javascript:void(0)" className="dark:text-white text-gray-800 flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
                                         <div>
