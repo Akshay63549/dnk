@@ -13,7 +13,6 @@ const Index = () => {
   <Categories/>
   <Highlight/>
     <Products/>
-  <Products/>
   <Cta/>
   <Newsletter/>
     </>
