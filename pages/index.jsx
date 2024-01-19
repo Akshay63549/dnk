@@ -1,22 +1,14 @@
-import Categories from '@/components/Categories'
-import Content from '@/components/Content'
-import Cta from '@/components/Cta'
-import Highlight from '@/components/Highlight'
-import Newsletter from '@/components/Newsletter'
-import Products from '@/components/Products'
+import Features from '@/components/Feature'
+import Hero from '@/components/Hero'
 import React from 'react'
 
-const Index = () => {
+const index = () => {
   return (
-    <>
-    <Content/>
-  <Categories/>
-  <Highlight/>
-    <Products/>
-  <Cta/>
-  <Newsletter/>
-    </>
+   <>
+   <Hero/>
+   <Features/>
+   </>
   )
 }
 
-export default Index
+export default index
