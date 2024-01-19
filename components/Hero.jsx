@@ -79,7 +79,7 @@ export default function Hero() {
 return (
     <>
         <section className="py-8 mt-20">
-            <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row lg:items-stretch gap-x-6">
+            <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex  flex-col lg:flex-row lg:items-stretch gap-x-6">
                 <div className="lg:w-[47%] py-4 lg:py-8 xl:py-12 space-y-7">
                     <h1 className="text-gray-900 dark:text-white font-bold text-3xl sm:text-4xl md:text-5xl xl:text-6xl">
                         Let your <span className="text-emerald-600">groceries</span> come to you

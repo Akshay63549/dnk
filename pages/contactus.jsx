@@ -27,7 +27,7 @@ const contactus = () => {
     }, []);
   return (
    
-  <div  id="yourComponent3"  className={`max-w-6xl mx-auto bg-white mt-9 font-[sans-serif] text-[#011c2b] ${isVisible ? 'animate-fade-in-up opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
+  <div  id="yourComponent3"  className={`max-w-6xl mx-auto bg-white mt-28 font-[sans-serif] text-[#011c2b] ${isVisible ? 'animate-fade-in-up opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
   <div className="text-center px-6">
     <h2 className="text-3xl font-extrabold">Contact Us</h2>
     <p className="text-sm text-gray-400 mt-3">Have some big idea or brand to develop and need help?</p>
@@ -166,7 +166,7 @@ const contactus = () => {
             </div>
           </div>
         </div>
-        <button type="button" className="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded px-4 py-2.5 font-semibold bg-[#011c2b] text-white hover:bg-[#011c2bf3]">
+        <button type="button" className="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded px-4 py-2.5 font-semibold bg-emerald-600 text-white hover:bg-emerald-800">
           <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="#fff" className="mr-2" viewBox="0 0 548.244 548.244">
             <path fillRule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clipRule="evenodd" data-original="#000000" />
           </svg>

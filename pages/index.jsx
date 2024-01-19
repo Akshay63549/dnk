@@ -8,7 +8,6 @@ const index = () => {
    <>
    <Hero/>
    <Features/>
-   <HoverCard/>
    </>
   )
 }
